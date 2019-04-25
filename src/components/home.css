@@ -56,6 +56,7 @@
 .home_image {
    position: relative;
    height: calc(100vw * 0.668);
+   width: 102%;
    margin-top: 12.5vh;
    /* padding-top: 56.25%; */
 }
