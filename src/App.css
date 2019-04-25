@@ -39,3 +39,166 @@ nav a:hover {
    text-decoration: underline;
    text-decoration-color: #f5cec6;
 }
+
+/*  */
+/* STYLING FOR HOME SECTION */
+/*  */
+.home {
+   height: 100vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+   perspective: 2px;
+   background: #f5cec6;
+}
+.home_contact {
+   position: relative;
+   height: 50vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+.home_contact_wrapper {
+   width: 90vw;
+   height: 45vh;
+   border-style: solid;
+   border-width: 1rem;
+   border-color: white;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-flow: column nowrap;
+   padding: 1rem;
+}
+.home_contact_wrapper h1 {
+   font-weight: normal;
+   font-size: 2.1rem;
+}
+.home_contact_wrapper p {
+   padding: 0.5rem;
+   text-align: center;
+}
+.home_contact_wrapper a {
+   color: #737373;
+   padding: 0.5rem 1rem;
+   border-radius: 30px;
+   background: white;
+}
+.home_contact_wrapper h3 {
+   font-size: 1rem;
+}
+
+.home_image {
+   position: relative;
+   height: calc(100vw * 0.668);
+   margin-top: 10vh;
+   /* padding-top: 56.25%; */
+}
+.home_image::after {
+   background-image: url("./components/images/vacuum_therapy.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home_services {
+   position: relative;
+   height: auto;
+
+   display: grid;
+   grid-template: auto / 1fr;
+   background: white;
+}
+.home_service1 {
+   grid-area: 1 / 1 / 2 / 2;
+   margin: 1rem 0 1rem auto;
+}
+.home_service2 {
+   grid-area: 2 / 1 / 3 / 2;
+   margin: 1rem auto 1rem 0;
+}
+.home_service3 {
+   grid-area: 3 / 1 / 4 / 2;
+   margin: 1rem 0 1rem auto;
+}
+.home_service4 {
+   grid-area: 4 / 1 / 5 / 2;
+   margin: 1rem auto 1rem 0;
+}
+.home_service_wrapper {
+   height: 30vh;
+}
+.home_service_wrapper img {
+   z-index: 1;
+   position: relative;
+   left: 0;
+   top: 0;
+   width: auto;
+   object-fit: cover;
+   height: 30vh;
+   width: 30vh;
+}
+.home_service_text_wrapper {
+   z-index: 2;
+   width: 65vw;
+   height: 17vh;
+   background: #f5cec6;
+   margin: 0;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.home_service_text_wrapper h2 {
+   width: 55vw;
+   height: 12vh;
+   font-size: 1rem;
+   font-weight: normal;
+   text-align: center;
+   line-height: calc(12vh - 1.35rem);
+   border-style: solid;
+   border-left-style: none;
+   border-right-style: none;
+   border-width: 0.65rem;
+   border-color: white;
+}
+.home_service1 .home_service_text_wrapper {
+   position: absolute;
+   top: calc(6.5vh + 1rem);
+   right: 35%;
+}
+.home_service2 .home_service_text_wrapper {
+   position: absolute;
+   top: calc(36.5vh + 3rem);
+   left: 35%;
+}
+.home_service3 .home_service_text_wrapper {
+   position: absolute;
+   top: calc(66.5vh + 5rem);
+   right: 35%;
+}
+.home_service4 .home_service_text_wrapper {
+   position: absolute;
+   top: calc(96.5vh + 7rem);
+   left: 35%;
+}
+
+.parallax::after {
+   /* Display and position the pseudo-element */
+   content: " ";
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+
+   /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+   transform: translateZ(-1px) scale(1.5);
+   /* Force the background image to fill the whole element. */
+   background-size: 100%;
+   /* Keep the image from overlapping sibling elements. */
+   z-index: -1;
+}

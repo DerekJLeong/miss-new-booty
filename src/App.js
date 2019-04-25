@@ -80,6 +80,7 @@ class Dashboard extends React.Component {
                <Route exact path="/gallery" component={Gallery} />
                <Route exact path="/contact" component={Contact} />
             </div>
+            <footer>Footer</footer>
          </div>
       );
    }
