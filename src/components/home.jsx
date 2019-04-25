@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, NavLink, Route } from "react-router-dom";
-
-// import vacuumTherapy from "./images/vacuum_therapy.png";
+import Footer from "./footer.jsx";
+import "./home.css";
 import cavitation from "./images/cavitation.png";
 import fatFreezing from "./images/fat_freezing.png";
 import lipo from "./images/lipo.png";
@@ -52,7 +52,11 @@ class Home extends React.Component {
                      <h2>FAT FREEZING</h2>
                   </div>
                </div>
+               <NavLink exact to="/services">
+                  <h3>MORE SERVICES</h3>
+               </NavLink>
             </div>
+            <Footer />
          </section>
       );
    }
