@@ -7,6 +7,7 @@ import Merchandise from "./components/merchandise.jsx";
 import Reviews from "./components/reviews.jsx";
 import Gallery from "./components/gallery.jsx";
 import Contact from "./components/contact.jsx";
+import logo from "./components/images/mnb_logo.png";
 
 class App extends Component {
    render() {
@@ -42,53 +43,35 @@ class Dashboard extends React.Component {
 
    render() {
       const width = this.state.viewWidth;
-      console.log(width);
       let isMobile;
-      isMobile =
-         width <= 768 ? (
-            <div>
-               <input type="checkbox" id="navigation" />
-               <label for="navigation">+</label>
-            </div>
-         ) : null;
+      isMobile = width <= 768 ? null : null;
 
       return (
          <div id="dashboard">
-            {isMobile}
-            <nav>
-               <ul>
-                  <li>
-                     <NavLink exact to="/">
-                        Home
-                     </NavLink>
-                  </li>
-                  <li>
-                     <NavLink exact to="/services">
-                        Services
-                     </NavLink>
-                  </li>
-                  <li>
-                     <NavLink exact to="/merchandise">
-                        Merchandise
-                     </NavLink>
-                  </li>
-                  <li>
-                     <NavLink exact to="/reviews">
-                        Reviews
-                     </NavLink>
-                  </li>
-                  <li>
-                     <NavLink exact to="/gallery">
-                        Gallery
-                     </NavLink>
-                  </li>
-                  <li>
-                     <NavLink exact to="/contact">
-                        Contact
-                     </NavLink>
-                  </li>
-               </ul>
-            </nav>
+            <header>
+               <img src={logo} alt="Miss New Booty Logo" />
+               {isMobile}
+               <nav>
+                  <NavLink exact to="/">
+                     Home
+                  </NavLink>
+                  <NavLink exact to="/services">
+                     Services
+                  </NavLink>
+                  <NavLink exact to="/merchandise">
+                     Merchandise
+                  </NavLink>
+                  <NavLink exact to="/reviews">
+                     Reviews
+                  </NavLink>
+                  <NavLink exact to="/gallery">
+                     Gallery
+                  </NavLink>
+                  <NavLink exact to="/contact">
+                     Contact
+                  </NavLink>
+               </nav>
+            </header>
             <div className="content">
                <Route exact path="/" component={Home} />
                <Route exact path="/services" component={Services} />
