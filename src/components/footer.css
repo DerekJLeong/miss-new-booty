@@ -15,6 +15,7 @@ footer ul {
 footer p {
    padding: 2rem;
    font-size: 1.35rem;
+   text-align: center;
 }
 .payment {
    display: inline-flex;
