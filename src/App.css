@@ -29,7 +29,7 @@ nav {
 }
 nav a {
    font-size: 1rem;
-   padding: 0.5rem 1rem;
+   padding: 0.5rem 0.85rem;
    color: #737373;
 }
 
@@ -37,4 +37,14 @@ nav a.active,
 nav a:hover {
    text-decoration: underline;
    text-decoration-color: #f5cec6;
+}
+
+@media only screen and (min-width: 1200px) {
+   header img {
+      margin-left: 15vw;
+   }
+   nav {
+      justify-content: flex-end;
+      margin-right: 15vw;
+   }
 }

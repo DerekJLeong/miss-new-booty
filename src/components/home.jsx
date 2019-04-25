@@ -30,25 +30,25 @@ class Home extends React.Component {
             <div className="home_services">
                <div className="home_service_wrapper home_service1">
                   <img src={lipo} alt="Cavitation" />
-                  <div className="home_service_text_wrapper">
+                  <div className="home_service_text_wrapper hstw1">
                      <h2>LASER LIPOSUCTION</h2>
                   </div>
                </div>
                <div className="home_service_wrapper home_service2">
                   <img src={lipo} alt="Cavitation" />
-                  <div className="home_service_text_wrapper">
+                  <div className="home_service_text_wrapper hstw2">
                      <h2>NON-INVASIVE BUTT LIFT</h2>
                   </div>
                </div>
                <div className="home_service_wrapper home_service3">
                   <img src={cavitation} alt="Cavitation" />
-                  <div className="home_service_text_wrapper">
+                  <div className="home_service_text_wrapper hstw3">
                      <h2>CAVITATION</h2>
                   </div>
                </div>
                <div className="home_service_wrapper home_service4">
                   <img src={fatFreezing} alt="Cavitation" />
-                  <div className="home_service_text_wrapper">
+                  <div className="home_service_text_wrapper hstw4">
                      <h2>FAT FREEZING</h2>
                   </div>
                </div>

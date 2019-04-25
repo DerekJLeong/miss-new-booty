@@ -14,7 +14,7 @@ footer ul {
 }
 footer p {
    padding: 2rem;
-   font-size: 1.35rem;
+   font-size: 1.25rem;
    text-align: center;
 }
 .payment {
@@ -24,7 +24,7 @@ footer p {
    justify-content: center;
 }
 .payment li {
-   font-size: 1.35rem;
+   font-size: 1rem;
    padding: 1rem 0.5rem;
 }
 .social {
@@ -57,5 +57,5 @@ footer p {
    padding: 1rem;
 }
 .location li {
-   font-size: 1.3rem;
+   font-size: 1.25rem;
 }

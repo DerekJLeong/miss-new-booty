@@ -9,7 +9,7 @@ class Footer extends React.Component {
    render() {
       return (
          <footer>
-            <p>We accept the following payments:</p>
+            <p>We accept the following payment methods:</p>
             <ul className="payment">
                <li>Cash</li>
                <li>PayPal</li>
