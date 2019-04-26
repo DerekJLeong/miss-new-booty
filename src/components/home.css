@@ -16,6 +16,7 @@
    align-items: center;
    justify-content: center;
    color: white;
+   -webkit-appearance: none;
 }
 .home_contact_wrapper {
    width: 90vw;
