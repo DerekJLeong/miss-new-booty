@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter, NavLink, Route, Switch } from "react-router-dom";
+import { HashRouter, NavLink, Route, Switch } from "react-router-dom";
 import Home from "./components/home.jsx";
 import Services from "./components/services.jsx";
 import Merchandise from "./components/merchandise.jsx";
@@ -12,9 +12,9 @@ import logo from "./components/images/mnb_logo.png";
 class App extends Component {
    render() {
       return (
-         <BrowserRouter>
+         <HashRouter>
             <Dashboard />
-         </BrowserRouter>
+         </HashRouter>
       );
    }
 }
