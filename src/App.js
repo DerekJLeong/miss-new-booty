@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter, NavLink, Route } from "react-router-dom";
+import { BrowserRouter, NavLink, Route, Switch } from "react-router-dom";
 import Home from "./components/home.jsx";
 import Services from "./components/services.jsx";
 import Merchandise from "./components/merchandise.jsx";
@@ -63,12 +63,14 @@ class Dashboard extends React.Component {
                </nav>
             </header>
             <div className="content">
-               <Route exact path="/" component={Home} />
-               <Route path="/services" component={Services} />
-               <Route path="/merchandise" component={Merchandise} />
-               <Route path="/reviews" component={Reviews} />
-               <Route path="/gallery" component={Gallery} />
-               <Route path="/contact" component={Contact} />
+               <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/services" component={Services} />
+                  <Route path="/merchandise" component={Merchandise} />
+                  <Route path="/reviews" component={Reviews} />
+                  <Route path="/gallery" component={Gallery} />
+                  <Route path="/contact" component={Contact} />
+               </Switch>
             </div>
          </div>
       );
