@@ -49,8 +49,8 @@
 }
 .home_contact_wrapper a:hover,
 .home_contact_wrapper a:active {
-   background: #f5cec6;
-   color: #737373;
+   background: #737373;
+   color: #f5cec6;
 }
 
 .home_image {
@@ -157,8 +157,8 @@
    grid-area: 5 / 1 / 6 / 2;
    margin: 2rem auto 4rem;
 }
-.home_servcies a:hover,
-.home_servcies a:active {
+.home_services a:hover,
+.home_services a:active {
    background: #f5cec6;
    color: #737373;
 }

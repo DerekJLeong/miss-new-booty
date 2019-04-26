@@ -44,4 +44,7 @@ nav a:hover {
       justify-content: flex-end;
       margin-right: 15vw;
    }
+   nav a {
+      font-size: 1.35rem;
+   }
 }
