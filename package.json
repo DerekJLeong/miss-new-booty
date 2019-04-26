@@ -1,8 +1,8 @@
 {
-   "homepage": "missnewbootyla.co",
    "name": "miss-new-booty",
    "version": "0.1.0",
    "private": true,
+   "homepage": "missnewbootyla.co",
    "dependencies": {
       "gh-pages": "^2.0.1",
       "normalize.css": "^8.0.1",
