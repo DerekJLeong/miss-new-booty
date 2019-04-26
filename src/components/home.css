@@ -33,10 +33,12 @@
 .home_contact_wrapper h1 {
    font-weight: normal;
    font-size: 2rem;
+   -webkit-appearance: none;
 }
 .home_contact_wrapper p {
    padding: 0.5rem;
    text-align: center;
+   -webkit-appearance: none;
 }
 .home_contact_wrapper a {
    color: #737373;
@@ -45,6 +47,7 @@
    background: white;
 }
 .home_contact_wrapper h3 {
+   -webkit-appearance: none;
    font-size: 1rem;
 }
 .home_contact_wrapper a:hover,
