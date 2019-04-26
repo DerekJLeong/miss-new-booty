@@ -42,6 +42,8 @@
 .home_contact_wrapper p {
    padding: 0.5rem;
    text-align: center;
+   margin-block-start: 0;
+   margin-block-end: 0;
    -webkit-appearance: none;
 }
 .home_contact_wrapper a {
@@ -51,6 +53,8 @@
    background: white;
 }
 .home_contact_wrapper h3 {
+   margin-block-start: 0;
+   margin-block-end: 0;
    -webkit-appearance: none;
    font-size: 1rem;
 }
@@ -65,7 +69,6 @@
    height: calc(100vw * 0.668);
    width: 102%;
    margin-top: 12.5vh;
-   /* padding-top: 56.25%; */
 }
 .home_image::after {
    background-image: url("./images/vacuum_therapy.png");
