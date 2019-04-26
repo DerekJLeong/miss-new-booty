@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Footer from "./footer.jsx";
 import "./home.css";
 import cavitation from "./images/cavitation.png";
@@ -24,9 +24,7 @@ class Home extends React.Component {
                </div>
             </div>
 
-            <div className="home_image parallax">
-               {/* <img src={vacuumTherapy} alt="Vacuum Therapy" /> */}
-            </div>
+            <div className="home_image parallax" />
 
             <div className="home_services">
                <div className="home_service_wrapper home_service1">
