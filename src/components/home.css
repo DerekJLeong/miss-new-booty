@@ -29,6 +29,7 @@
    justify-content: space-between;
    flex-flow: column nowrap;
    padding: 1rem;
+   -webkit-appearance: none;
 }
 .home_contact_wrapper h1 {
    font-weight: normal;
