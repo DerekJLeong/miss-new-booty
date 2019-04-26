@@ -52,9 +52,7 @@ class Dashboard extends React.Component {
                <img src={logo} alt="Miss New Booty Logo" />
                {isMobile}
                <nav>
-                  <NavLink exact to="/">
-                     Home
-                  </NavLink>
+                  <NavLink to="/">Home</NavLink>
                   <NavLink to="/services">Services</NavLink>
                   <NavLink to="/merchandise">Merchandise</NavLink>
                   <NavLink to="/reviews">Reviews</NavLink>
