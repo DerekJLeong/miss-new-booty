@@ -12,7 +12,7 @@ import logo from "./components/images/mnb_logo.png";
 class App extends Component {
    render() {
       return (
-         <HashRouter>
+         <HashRouter basename="/">
             <Dashboard />
          </HashRouter>
       );
