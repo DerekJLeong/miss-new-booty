@@ -5,6 +5,7 @@ import "./home.css";
 import cavitation from "./images/cavitation.png";
 import fatFreezing from "./images/fat_freezing.png";
 import lipo from "./images/lipo.png";
+import buttLift from "./images/butt_lift.png";
 
 class Home extends React.Component {
    render() {
@@ -35,7 +36,7 @@ class Home extends React.Component {
                   </div>
                </div>
                <div className="home_service_wrapper home_service2">
-                  <img src={lipo} alt="Cavitation" />
+                  <img src={buttLift} alt="Cavitation" />
                   <div className="home_service_text_wrapper hstw2">
                      <h2>NON-INVASIVE BUTT LIFT</h2>
                   </div>
