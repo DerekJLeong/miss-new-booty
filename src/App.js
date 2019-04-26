@@ -55,30 +55,20 @@ class Dashboard extends React.Component {
                   <NavLink exact to="/">
                      Home
                   </NavLink>
-                  <NavLink exact to="/services">
-                     Services
-                  </NavLink>
-                  <NavLink exact to="/merchandise">
-                     Merchandise
-                  </NavLink>
-                  <NavLink exact to="/reviews">
-                     Reviews
-                  </NavLink>
-                  <NavLink exact to="/gallery">
-                     Gallery
-                  </NavLink>
-                  <NavLink exact to="/contact">
-                     Contact
-                  </NavLink>
+                  <NavLink to="/services">Services</NavLink>
+                  <NavLink to="/merchandise">Merchandise</NavLink>
+                  <NavLink to="/reviews">Reviews</NavLink>
+                  <NavLink to="/gallery">Gallery</NavLink>
+                  <NavLink to="/contact">Contact</NavLink>
                </nav>
             </header>
             <div className="content">
                <Route exact path="/" component={Home} />
-               <Route exact path="/services" component={Services} />
-               <Route exact path="/merchandise" component={Merchandise} />
-               <Route exact path="/reviews" component={Reviews} />
-               <Route exact path="/gallery" component={Gallery} />
-               <Route exact path="/contact" component={Contact} />
+               <Route path="/services" component={Services} />
+               <Route path="/merchandise" component={Merchandise} />
+               <Route path="/reviews" component={Reviews} />
+               <Route path="/gallery" component={Gallery} />
+               <Route path="/contact" component={Contact} />
             </div>
          </div>
       );
