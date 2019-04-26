@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, NavLink, Route } from "react-router-dom";
+import { BrowserRouter, Link, Route } from "react-router-dom";
 import Footer from "./footer.jsx";
 import "./home.css";
 import cavitation from "./images/cavitation.png";
@@ -18,9 +18,9 @@ class Home extends React.Component {
                      Offering non-invasive aesthetic procedures to build a body
                      you will love.
                   </p>
-                  <NavLink exact to="/contact">
+                  <Link exact to="/contact">
                      <h3>CONTACT US TODAY</h3>
-                  </NavLink>
+                  </Link>
                </div>
             </div>
 
@@ -53,9 +53,9 @@ class Home extends React.Component {
                      <h2>FAT FREEZING</h2>
                   </div>
                </div>
-               <NavLink exact to="/services">
+               <Link exact to="/services">
                   <h3>MORE SERVICES</h3>
-               </NavLink>
+               </Link>
             </div>
             <Footer />
          </section>
