@@ -18,7 +18,7 @@ class Home extends React.Component {
                      Offering non-invasive aesthetic procedures to build a body
                      you will love.
                   </p>
-                  <Link exact to="/contact">
+                  <Link to="/contact">
                      <h3>CONTACT US TODAY</h3>
                   </Link>
                </div>
@@ -53,7 +53,7 @@ class Home extends React.Component {
                      <h2>FAT FREEZING</h2>
                   </div>
                </div>
-               <Link exact to="/services">
+               <Link to="/services">
                   <h3>MORE SERVICES</h3>
                </Link>
             </div>
