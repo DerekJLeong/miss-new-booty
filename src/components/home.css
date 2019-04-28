@@ -66,9 +66,9 @@
 
 .home_image {
    position: relative;
-   height: calc(100vw * 0.668);
+   height: calc(100vw * 0.4);
    width: 102%;
-   margin-top: 12.5vh;
+   margin-top: 10.5vh;
 }
 .home_image::after {
    background-image: url("./images/vacuum_therapy.png");
@@ -223,7 +223,7 @@
       padding: 0.5rem 2rem;
    }
    .home_image {
-      margin-top: 6vh;
+      margin-top: 2vh;
    }
    .home_services {
       position: relative;
@@ -297,7 +297,7 @@
       font-size: 1.25rem;
    }
    .home_image {
-      margin-top: 30vh;
+      margin-top: 17.5vh;
    }
    .home_services {
       position: relative;
