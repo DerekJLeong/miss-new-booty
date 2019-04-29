@@ -1,0 +1,32 @@
+.reviews {
+   height: auto;
+   width: 100vw;
+}
+.reviews_top_container {
+   background-color: #f5cec6;
+   color: #737373;
+   padding: 2rem 1rem;
+}
+.reviews_top_container h1 {
+   font-size: 3rem;
+   text-align: center;
+   margin: 0 auto 1rem;
+}
+.reviews_top_container ul {
+   width: 100%;
+   display: flex;
+   flex-flow: column nowrap;
+   list-style-type: none;
+}
+.reviews_top_container li {
+   padding: 1rem;
+}
+.reviews_top_container li p:first-of-type {
+   color: #737373;
+   font-size: 1.85rem;
+}
+.reviews_top_container li p:last-of-type {
+   color: white;
+   font-size: 1.1rem;
+   line-height: 1.65rem;
+}

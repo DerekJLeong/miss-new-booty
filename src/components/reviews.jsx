@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./reviews.css";
 
 import before from "./images/reviews_before.png";
 import after from "./images/reviews_after.png";
@@ -6,7 +7,7 @@ import after from "./images/reviews_after.png";
 class Reviews extends React.Component {
    render() {
       return (
-         <section>
+         <section className="reviews">
             <div className="reviews_top_container">
                <h1>Reviews</h1>
                <ul>
