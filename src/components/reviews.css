@@ -19,7 +19,7 @@
    list-style-type: none;
 }
 .reviews_top_container li {
-   padding: 1rem;
+   padding: 1rem 2rem;
 }
 .reviews_top_container li p:first-of-type {
    color: #737373;
@@ -69,4 +69,17 @@
 }
 .reviews_bottom_container img:last-of-type {
    grid-area: 1 / 5 / 2 / 6;
+}
+
+@media only screen and (min-width: 768px) {
+   .reviews_top_container ul {
+      width: 80vw;
+      margin: 0 10vw;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .reviews_top_container ul {
+      width: 800px;
+      margin: 0 auto;
+   }
 }
