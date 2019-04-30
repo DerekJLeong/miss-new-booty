@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "./footer.jsx";
 import "./reviews.css";
 
 import before from "./images/reviews_before.png";
@@ -63,13 +64,14 @@ class Reviews extends React.Component {
                   </li>
                </ul>
             </div>
-            <div className="reviews_bottom_container">
+            {/* <div className="reviews_bottom_container">
                <h2>Before</h2>
                <img src={before} alt="before proceedure" />
                <h3>NON-INVASIVE BUTTLIFT</h3>
                <img src={after} alt="before proceedure" />
-               <h2>Before</h2>
-            </div>
+               <h2>After</h2>
+            </div> */}
+            <Footer />
          </section>
       );
    }

@@ -5,6 +5,7 @@ footer {
    align-items: center;
    justify-content: center;
    padding: 1rem 1rem 3rem;
+   background-color: #f5cec6;
    color: white;
 }
 footer ul {
@@ -28,7 +29,6 @@ footer p {
    padding: 1rem 0.5rem;
 }
 .social {
-   /* width: 50vw; */
    display: inline-flex;
    flex-flow: row nowrap;
    align-items: center;
