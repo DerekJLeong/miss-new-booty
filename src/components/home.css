@@ -7,6 +7,7 @@
    overflow-y: auto;
    perspective: 2px;
    background: #f5cec6;
+   font-family: "Raleway", sans-serif;
 }
 .home_contact {
    position: relative;

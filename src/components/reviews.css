@@ -1,11 +1,12 @@
 .reviews {
    height: auto;
    width: 100vw;
+   font-family: "Raleway", sans-serif;
 }
 .reviews_top_container {
    background-color: #f5cec6;
    color: #737373;
-   padding: 2rem 1rem;
+   padding: 2rem 0;
 }
 .reviews_top_container h1 {
    font-size: 3rem;
@@ -19,11 +20,12 @@
    list-style-type: none;
 }
 .reviews_top_container li {
-   padding: 1rem 2rem;
+   padding: 2rem 2rem;
 }
 .reviews_top_container li p:first-of-type {
    color: #737373;
-   font-size: 1.85rem;
+   font-size: 4rem;
+   line-height: 1.65rem;
 }
 .reviews_top_container li p:last-of-type {
    color: white;
